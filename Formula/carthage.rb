@@ -7,8 +7,6 @@ class Carthage < Formula
   license "MIT"
   head "https://github.com/akaffenberger/Carthage.git"
 
-  bottle :disable, "reasons"
-
   depends_on xcode: ["10.0", :build]
   depends_on :macos
 
